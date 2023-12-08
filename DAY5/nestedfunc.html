@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NestedFunc</title>
+</head>
+<body>
+    <h1 id="result"></h1>
+
+    <script>
+        function display(result){
+            document.getElementById("result").innerHTML=result;
+        }
+
+        function calc(a,b){
+            return a+b;
+        }
+
+        let add=calc(20,30);
+        display(add);
+    </script>
+</body>
+</html>
